@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER_APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="search_input" placeholder="Enter the city name" spellcheck="false">
+            <button><img src="search.png" id="search_img" alt="search_icon"></button>
+        </div>
+        <div class="weather">
+            <div class="img_container"><img src="rain.png" alt="raining"></div>
+            <div>
+                <h1 style="color: aliceblue;" id="temp">__°C</h1>
+            </div>
+            <div>
+                <h2 style="color: aliceblue;font-family:serif;font-size: 3rem;" id="city">Enter City Name</h2>
+            </div>
+            <div class="details">
+                <div class="humidity">
+                    <img id="humid1" src="humidity.png" alt="humidity_image">
+                    <div id="humid2">
+                        <h1 id="humid-value" style="color: white; font-size: 20px;">__%</h1>
+                        <p style="color: white;">HUMIDITY</p>
+                    </div>
+                </div>
+                <div class="windspeed">
+                    <img id="wind1" src="storm.png" alt="windspeed_image">
+                    <div id="wind2">
+                        <h1 id="wind-value" style="color: white; font-size: 20px;">__km/h</h1>
+                        <p style="color: white;">WIND SPEED</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
